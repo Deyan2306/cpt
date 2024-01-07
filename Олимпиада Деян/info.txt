@@ -1,0 +1,4 @@
+Задачите са по следен ред
+ 1. calculations.cpp
+ 2. redstone.cpp
+ 3. sequence.cpp
