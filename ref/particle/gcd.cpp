@@ -20,3 +20,9 @@ LL gcd(LL a, LL b) {
         return gcd(a - b, b);
     return gcd(a, b - a);
 }
+
+// Other similar solution
+// Depends on how do you want to format your code
+LL gcd(LL a, LL b) {
+  return (b == 0) ? a : gcd(b, a%b);
+}
