@@ -14,12 +14,15 @@ const double EPS = 1e-9;
 #define all(x) x.begin(), x.end()
 #define sz(x) (int)x.size()
 
+#define YES 1&1
+#define NO 1&0
+
 template<typename T>
 void print_vector(const vector<T>& v) {
     for (const auto& elem : v) {
         cout << elem << " ";
     }
-    cout << endl;
+    cout << endl ;
 }
 
 template<typename T>
